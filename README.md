@@ -11,3 +11,11 @@ pip install "fastapi[standard]"
 ```bash
 uvicorn main:app --reload
 ```
+
+## Test
+
+```bash
+pip install httpx
+pip install pytest
+pytest
+```
